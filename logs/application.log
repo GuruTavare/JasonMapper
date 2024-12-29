@@ -1,0 +1,1065 @@
+2024-12-27 10:11:24 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 12532 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-27 10:11:24 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 10:11:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-27 10:11:27 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 10:11:27 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-27 10:11:27 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 10:11:27 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-27 10:11:27 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2923 ms
+2024-12-27 10:11:28 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 10:11:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 10:11:28 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 5.5 seconds (process running for 6.404)
+2024-12-27 10:13:42 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27 10:13:42 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-27 10:13:42 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-12-27 10:13:42 INFO  c.j.j.controller.UserController - Received request to fetch all users
+2024-12-27 10:13:42 INFO  c.j.j.service.UserServiceImpl - Fetching all users
+2024-12-27 10:13:42 INFO  c.j.j.controller.UserController - Returning all users: []
+2024-12-27 10:14:13 INFO  c.j.j.controller.UserController - Received request to create users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 10:14:13 INFO  c.j.j.service.UserServiceImpl - Adding users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 10:14:13 INFO  c.j.j.service.UserServiceImpl - Current users list: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 10:14:13 INFO  c.j.j.controller.UserController - Successfully created users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 10:34:22 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 9896 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-27 10:34:22 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 10:34:22 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-27 10:34:22 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-27 10:34:25 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-27 10:34:25 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 10:34:25 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-27 10:34:25 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 10:34:26 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-27 10:34:26 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3241 ms
+2024-12-27 10:34:27 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-27 10:34:27 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 10:34:27 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 10:34:27 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 5.827 seconds (process running for 7.154)
+2024-12-27 10:34:40 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27 10:34:40 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-27 10:34:40 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-12-27 10:34:41 INFO  c.j.j.controller.UserController - Received request to fetch all users
+2024-12-27 10:34:41 INFO  c.j.j.service.UserServiceImpl - Fetching all users
+2024-12-27 10:34:41 INFO  c.j.j.controller.UserController - Returning all users: []
+2024-12-27 10:34:57 INFO  c.j.j.controller.UserController - Received request to create users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 10:34:57 INFO  c.j.j.service.UserServiceImpl - Adding users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 10:34:57 INFO  c.j.j.service.UserServiceImpl - Current users list: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 10:34:57 INFO  c.j.j.controller.UserController - Successfully created users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 10:35:04 INFO  c.j.j.controller.UserController - Received request to get user coordinates by ID: 3
+2024-12-27 10:35:04 INFO  c.j.j.service.UserServiceImpl - Searching for userGeo with ID: 3
+2024-12-27 10:35:04 INFO  c.j.j.service.UserServiceImpl - User found: User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))
+2024-12-27 10:35:04 INFO  c.j.j.service.UserServiceImpl - UserGeo found: Geo(lat=-68.6102, lng=-47.0653)
+2024-12-27 10:35:04 INFO  c.j.j.controller.UserController - Returning response for ID 3: <200 OK OK,Geo(lat=-68.6102, lng=-47.0653),[]>
+2024-12-27 11:04:03 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-12-27 11:04:04 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 11:04:04 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:04:05 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-27 11:04:05 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:04:05 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 9896 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-27 11:04:05 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 11:04:07 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-27 11:04:07 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:04:07 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-27 11:04:07 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 11:04:07 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-27 11:04:07 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1990 ms
+2024-12-27 11:04:08 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-27 11:04:08 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:04:08 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 11:04:08 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 2.795 seconds (process running for 1788.587)
+2024-12-27 11:04:08 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-27 11:04:09 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 12 class path changes (0 additions, 0 deletions, 12 modifications)
+2024-12-27 11:04:09 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 11:04:09 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:04:10 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-27 11:04:10 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:04:10 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 9896 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-27 11:04:10 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 11:04:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-27 11:04:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:04:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-27 11:04:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 11:04:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-27 11:04:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 697 ms
+2024-12-27 11:04:11 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-27 11:04:11 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:04:11 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 11:04:11 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 1.007 seconds (process running for 1791.213)
+2024-12-27 11:04:11 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-27 11:05:13 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 11:05:13 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 11:05:13 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:05:13 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-27 11:05:13 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:05:13 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 9896 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-27 11:05:13 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 11:05:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-27 11:05:14 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:05:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-27 11:05:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 11:05:14 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-27 11:05:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 673 ms
+2024-12-27 11:05:14 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-27 11:05:14 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:05:15 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 11:05:15 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 1.157 seconds (process running for 1855.023)
+2024-12-27 11:05:15 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   CacheAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+      - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) found bean 'cacheInterceptor'; @ConditionalOnMissingBean (names: cacheResolver types: org.springframework.cache.CacheManager; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+   CacheAutoConfiguration#cacheManagerCustomizers matched:
+      - @ConditionalOnMissingBean (types: org.springframework.boot.autoconfigure.cache.CacheManagerCustomizers; SearchStrategy: all) did not find any beans (OnBeanCondition)
+
+
+Negative matches:
+-----------------
+
+   GenericCacheConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.Cache; SearchStrategy: all) did not find any beans of type org.springframework.cache.Cache (OnBeanCondition)
+      Matched:
+         - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
+
+   NoOpCacheConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.springframework.cache.CacheManager; SearchStrategy: all) found beans of type 'org.springframework.cache.CacheManager' cacheManager (OnBeanCondition)
+      Matched:
+         - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-12-27 11:06:32 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 11:06:32 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 11:06:32 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:06:32 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-27 11:06:32 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:06:33 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 9896 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-27 11:06:33 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 11:06:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-27 11:06:34 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:06:34 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-27 11:06:34 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 11:06:34 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-27 11:06:34 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 961 ms
+2024-12-27 11:06:34 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-27 11:06:34 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:06:34 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 11:06:34 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 1.931 seconds (process running for 1934.794)
+2024-12-27 11:06:34 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-27 11:12:49 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27 11:12:49 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-27 11:12:49 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-12-27 11:12:49 INFO  c.j.j.controller.UserController - Received request to fetch all users
+2024-12-27 11:12:49 INFO  c.j.j.service.UserServiceImpl - Fetching all users
+2024-12-27 11:12:49 INFO  c.j.j.controller.UserController - Returning all users: []
+2024-12-27 11:12:54 INFO  c.j.j.controller.UserController - Received request to create users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:12:54 INFO  c.j.j.service.UserServiceImpl - Adding users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:12:54 INFO  c.j.j.service.UserServiceImpl - Current users list: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:12:54 INFO  c.j.j.controller.UserController - Successfully created users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:13:01 INFO  c.j.j.controller.UserController - Received request to get user by ID: 3
+2024-12-27 11:13:01 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 3
+2024-12-27 11:13:01 INFO  c.j.j.service.UserServiceImpl - User found: User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))
+2024-12-27 11:13:01 INFO  c.j.j.controller.UserController - Returning response for ID 3: <200 OK OK,User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653))),[]>
+2024-12-27 11:25:44 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 11:25:44 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 11:25:44 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:25:44 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-27 11:25:44 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:25:44 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 9896 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-27 11:25:44 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 11:25:44 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-27 11:25:44 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:25:44 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-27 11:25:44 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 11:25:44 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-27 11:25:44 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 566 ms
+2024-12-27 11:25:45 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheAutoConfigurationValidator' defined in class path resource [org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class]: Unsatisfied dependency expressed through method 'cacheAutoConfigurationValidator' parameter 0: Error creating bean with name 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties': Could not bind properties to 'CacheProperties' : prefix=spring.cache, ignoreInvalidFields=false, ignoreUnknownFields=true
+2024-12-27 11:25:45 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-27 11:25:45 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-27 11:25:45 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cache.redis.time-to-live' to java.time.Duration:
+
+    Property: spring.cache.redis.time-to-live
+    Value: "60000  # Default TTL for cache entries (in ms)"
+    Origin: class path resource [application.properties] - 8:33
+    Reason: failed to convert java.lang.String to java.time.Duration (caused by java.lang.IllegalArgumentException: '60000  # Default TTL for cache entries (in ms)' is not a valid duration)
+
+Action:
+
+Update your application's configuration
+
+2024-12-27 11:26:14 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 9896 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-27 11:26:14 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 11:26:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-27 11:26:14 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:26:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-27 11:26:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 11:26:14 INFO  o.a.c.c.C.[Tomcat-1].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-27 11:26:14 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 691 ms
+2024-12-27 11:26:15 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator' defined in class path resource [org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class]: No cache manager could be auto-configured, check your configuration (caching type is 'REDIS')
+2024-12-27 11:26:15 INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-12-27 11:26:15 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-27 11:26:15 ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'cacheAutoConfigurationValidator' defined in class path resource [org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class]: No cache manager could be auto-configured, check your configuration (caching type is 'REDIS')
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1808)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:523)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:336)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:289)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:334)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1122)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1093)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1030)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350)
+	at com.jsaon.jsonmapper.JsonmapperApplication.main(JsonmapperApplication.java:12)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50)
+Caused by: java.lang.IllegalArgumentException: No cache manager could be auto-configured, check your configuration (caching type is 'REDIS')
+	at org.springframework.util.Assert.notNull(Assert.java:200)
+	at org.springframework.boot.autoconfigure.cache.CacheAutoConfiguration$CacheManagerValidator.afterPropertiesSet(CacheAutoConfiguration.java:105)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1855)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	... 23 common frames omitted
+2024-12-27 11:30:58 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 12372 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-27 11:30:58 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 11:30:58 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-27 11:30:58 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-27 11:31:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-27 11:31:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-27 11:31:00 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36 ms. Found 0 Redis repository interfaces.
+2024-12-27 11:31:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-27 11:31:02 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:31:02 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-27 11:31:02 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 11:31:02 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-27 11:31:02 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4040 ms
+2024-12-27 11:31:04 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-27 11:31:04 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 11:31:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 11:31:05 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 8.059 seconds (process running for 9.2)
+2024-12-27 11:31:23 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27 11:31:23 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-27 11:31:23 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-12-27 11:31:23 INFO  c.j.j.controller.UserController - Received request to create users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:31:23 INFO  c.j.j.service.UserServiceImpl - Adding users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:31:23 INFO  c.j.j.service.UserServiceImpl - Current users list: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:31:23 INFO  c.j.j.controller.UserController - Successfully created users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:31:40 INFO  c.j.j.controller.UserController - Received request to fetch all users
+2024-12-27 11:31:40 INFO  c.j.j.service.UserServiceImpl - Fetching all users
+2024-12-27 11:31:40 INFO  c.j.j.controller.UserController - Returning all users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:31:56 INFO  c.j.j.controller.UserController - Received request to get user by ID: 3
+2024-12-27 11:31:58 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 3
+2024-12-27 11:31:58 INFO  c.j.j.service.UserServiceImpl - User found: User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))
+2024-12-27 11:31:58 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.serializer.SerializationException: Cannot serialize] with root cause
+java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [org.springframework.http.ResponseEntity]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:95)
+	at org.springframework.data.redis.serializer.DefaultRedisElementWriter.write(DefaultRedisElementWriter.java:42)
+	at org.springframework.data.redis.serializer.RedisSerializationContext$SerializationPair.write(RedisSerializationContext.java:292)
+	at org.springframework.data.redis.cache.RedisCache.serializeCacheValue(RedisCache.java:343)
+	at org.springframework.data.redis.cache.RedisCache.put(RedisCache.java:204)
+	at org.springframework.cache.interceptor.AbstractCacheInvoker.doPut(AbstractCacheInvoker.java:164)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.performCachePut(CacheAspectSupport.java:1051)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.apply(CacheAspectSupport.java:1036)
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:580)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:447)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:409)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.jsaon.jsonmapper.service.UserServiceImpl$$SpringCGLIB$$0.getById(<generated>)
+	at com.jsaon.jsonmapper.controller.UserController.getUserById(UserController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-27 11:32:06 INFO  c.j.j.controller.UserController - Received request to get user by ID: 3
+2024-12-27 11:32:06 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 3
+2024-12-27 11:32:06 INFO  c.j.j.service.UserServiceImpl - User found: User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))
+2024-12-27 11:32:06 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.serializer.SerializationException: Cannot serialize] with root cause
+java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [org.springframework.http.ResponseEntity]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:95)
+	at org.springframework.data.redis.serializer.DefaultRedisElementWriter.write(DefaultRedisElementWriter.java:42)
+	at org.springframework.data.redis.serializer.RedisSerializationContext$SerializationPair.write(RedisSerializationContext.java:292)
+	at org.springframework.data.redis.cache.RedisCache.serializeCacheValue(RedisCache.java:343)
+	at org.springframework.data.redis.cache.RedisCache.put(RedisCache.java:204)
+	at org.springframework.cache.interceptor.AbstractCacheInvoker.doPut(AbstractCacheInvoker.java:164)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.performCachePut(CacheAspectSupport.java:1051)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.apply(CacheAspectSupport.java:1036)
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:580)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:447)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:409)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.jsaon.jsonmapper.service.UserServiceImpl$$SpringCGLIB$$0.getById(<generated>)
+	at com.jsaon.jsonmapper.controller.UserController.getUserById(UserController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-27 11:32:32 INFO  c.j.j.controller.UserController - Received request to fetch all users
+2024-12-27 11:32:32 INFO  c.j.j.service.UserServiceImpl - Fetching all users
+2024-12-27 11:32:32 INFO  c.j.j.controller.UserController - Returning all users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-27 11:32:39 INFO  c.j.j.controller.UserController - Received request to get user by ID: 3
+2024-12-27 11:32:39 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 3
+2024-12-27 11:32:39 INFO  c.j.j.service.UserServiceImpl - User found: User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))
+2024-12-27 11:32:39 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.serializer.SerializationException: Cannot serialize] with root cause
+java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [org.springframework.http.ResponseEntity]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:95)
+	at org.springframework.data.redis.serializer.DefaultRedisElementWriter.write(DefaultRedisElementWriter.java:42)
+	at org.springframework.data.redis.serializer.RedisSerializationContext$SerializationPair.write(RedisSerializationContext.java:292)
+	at org.springframework.data.redis.cache.RedisCache.serializeCacheValue(RedisCache.java:343)
+	at org.springframework.data.redis.cache.RedisCache.put(RedisCache.java:204)
+	at org.springframework.cache.interceptor.AbstractCacheInvoker.doPut(AbstractCacheInvoker.java:164)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.performCachePut(CacheAspectSupport.java:1051)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.apply(CacheAspectSupport.java:1036)
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:580)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:447)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:409)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.jsaon.jsonmapper.service.UserServiceImpl$$SpringCGLIB$$0.getById(<generated>)
+	at com.jsaon.jsonmapper.controller.UserController.getUserById(UserController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-27 11:32:46 INFO  c.j.j.controller.UserController - Received request to get user by ID: 2
+2024-12-27 11:32:46 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 2
+2024-12-27 11:32:46 INFO  c.j.j.service.UserServiceImpl - User found: User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618)))
+2024-12-27 11:32:46 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.serializer.SerializationException: Cannot serialize] with root cause
+java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [org.springframework.http.ResponseEntity]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:95)
+	at org.springframework.data.redis.serializer.DefaultRedisElementWriter.write(DefaultRedisElementWriter.java:42)
+	at org.springframework.data.redis.serializer.RedisSerializationContext$SerializationPair.write(RedisSerializationContext.java:292)
+	at org.springframework.data.redis.cache.RedisCache.serializeCacheValue(RedisCache.java:343)
+	at org.springframework.data.redis.cache.RedisCache.put(RedisCache.java:204)
+	at org.springframework.cache.interceptor.AbstractCacheInvoker.doPut(AbstractCacheInvoker.java:164)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.performCachePut(CacheAspectSupport.java:1051)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.apply(CacheAspectSupport.java:1036)
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:580)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:447)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:409)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.jsaon.jsonmapper.service.UserServiceImpl$$SpringCGLIB$$0.getById(<generated>)
+	at com.jsaon.jsonmapper.controller.UserController.getUserById(UserController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-28 09:20:25 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 17156 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-28 09:20:25 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-28 09:20:25 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 09:20:25 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 09:20:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-28 09:20:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-28 09:20:27 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30 ms. Found 0 Redis repository interfaces.
+2024-12-28 09:20:28 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-28 09:20:28 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:20:28 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-28 09:20:28 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-28 09:20:29 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-28 09:20:29 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3627 ms
+2024-12-28 09:20:31 WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-12-28 09:20:31 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:20:31 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-28 09:20:31 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-28 09:20:31 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-28 09:21:11 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 17436 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-28 09:21:11 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-28 09:21:11 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 09:21:11 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 09:21:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-28 09:21:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-28 09:21:13 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2024-12-28 09:21:14 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-28 09:21:14 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:21:14 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-28 09:21:14 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-28 09:21:15 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-28 09:21:15 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3571 ms
+2024-12-28 09:21:17 WARN  o.s.b.d.a.OptionalLiveReloadServer - Unable to start LiveReload server
+2024-12-28 09:21:17 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:21:17 WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-12-28 09:21:17 INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-28 09:21:17 ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-12-28 09:21:56 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 18948 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-28 09:21:56 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-28 09:21:56 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-28 09:21:56 INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-28 09:21:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-28 09:21:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-28 09:21:58 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+2024-12-28 09:22:00 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-28 09:22:00 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:22:00 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-28 09:22:00 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-28 09:22:00 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-28 09:22:00 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3746 ms
+2024-12-28 09:22:02 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-28 09:22:02 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:22:02 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 09:22:02 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 7.347 seconds (process running for 8.51)
+2024-12-28 09:22:46 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-28 09:22:46 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-28 09:22:46 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2024-12-28 09:22:46 INFO  c.j.j.controller.UserController - Received request to create users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:22:46 INFO  c.j.j.service.UserServiceImpl - Adding users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:22:46 INFO  c.j.j.service.UserServiceImpl - Current users list: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:22:46 INFO  c.j.j.controller.UserController - Successfully created users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:22:52 INFO  c.j.j.controller.UserController - Received request to fetch all users
+2024-12-28 09:22:52 INFO  c.j.j.service.UserServiceImpl - Fetching all users
+2024-12-28 09:22:52 INFO  c.j.j.controller.UserController - Returning all users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:26:19 INFO  c.j.j.controller.UserController - Received request to get user by ID: 2
+2024-12-28 09:26:21 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 2
+2024-12-28 09:26:21 INFO  c.j.j.service.UserServiceImpl - User found: User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618)))
+2024-12-28 09:26:21 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.serializer.SerializationException: Cannot serialize] with root cause
+java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [org.springframework.http.ResponseEntity]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:95)
+	at org.springframework.data.redis.serializer.DefaultRedisElementWriter.write(DefaultRedisElementWriter.java:42)
+	at org.springframework.data.redis.serializer.RedisSerializationContext$SerializationPair.write(RedisSerializationContext.java:292)
+	at org.springframework.data.redis.cache.RedisCache.serializeCacheValue(RedisCache.java:343)
+	at org.springframework.data.redis.cache.RedisCache.put(RedisCache.java:204)
+	at org.springframework.cache.interceptor.AbstractCacheInvoker.doPut(AbstractCacheInvoker.java:164)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.performCachePut(CacheAspectSupport.java:1051)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.apply(CacheAspectSupport.java:1036)
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:580)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:447)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:409)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.jsaon.jsonmapper.service.UserServiceImpl$$SpringCGLIB$$0.getById(<generated>)
+	at com.jsaon.jsonmapper.controller.UserController.getUserById(UserController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-28 09:30:52 INFO  c.j.j.controller.UserController - Received request to get user by ID: 2
+2024-12-28 09:30:52 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 2
+2024-12-28 09:30:52 INFO  c.j.j.service.UserServiceImpl - User found: User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618)))
+2024-12-28 09:30:52 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.serializer.SerializationException: Cannot serialize] with root cause
+java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [org.springframework.http.ResponseEntity]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:95)
+	at org.springframework.data.redis.serializer.DefaultRedisElementWriter.write(DefaultRedisElementWriter.java:42)
+	at org.springframework.data.redis.serializer.RedisSerializationContext$SerializationPair.write(RedisSerializationContext.java:292)
+	at org.springframework.data.redis.cache.RedisCache.serializeCacheValue(RedisCache.java:343)
+	at org.springframework.data.redis.cache.RedisCache.put(RedisCache.java:204)
+	at org.springframework.cache.interceptor.AbstractCacheInvoker.doPut(AbstractCacheInvoker.java:164)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.performCachePut(CacheAspectSupport.java:1051)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.apply(CacheAspectSupport.java:1036)
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:580)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:447)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:409)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.jsaon.jsonmapper.service.UserServiceImpl$$SpringCGLIB$$0.getById(<generated>)
+	at com.jsaon.jsonmapper.controller.UserController.getUserById(UserController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-28 09:31:05 INFO  c.j.j.controller.UserController - Received request to fetch all users
+2024-12-28 09:31:05 INFO  c.j.j.service.UserServiceImpl - Fetching all users
+2024-12-28 09:31:05 INFO  c.j.j.controller.UserController - Returning all users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:31:37 INFO  c.j.j.controller.UserController - Received request to get user coordinates by ID: 3
+2024-12-28 09:31:37 INFO  c.j.j.service.UserServiceImpl - Searching for userGeo with ID: 3
+2024-12-28 09:31:37 INFO  c.j.j.service.UserServiceImpl - User found: User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))
+2024-12-28 09:31:37 INFO  c.j.j.service.UserServiceImpl - UserGeo found: Geo(lat=-68.6102, lng=-47.0653)
+2024-12-28 09:31:37 INFO  c.j.j.controller.UserController - Returning response for ID 3: <200 OK OK,Geo(lat=-68.6102, lng=-47.0653),[]>
+2024-12-28 09:31:53 INFO  c.j.j.controller.UserController - Received request to get user by ID: 2
+2024-12-28 09:31:53 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 2
+2024-12-28 09:31:53 INFO  c.j.j.service.UserServiceImpl - User found: User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618)))
+2024-12-28 09:31:53 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.data.redis.serializer.SerializationException: Cannot serialize] with root cause
+java.lang.IllegalArgumentException: DefaultSerializer requires a Serializable payload but received an object of type [org.springframework.http.ResponseEntity]
+	at org.springframework.core.serializer.DefaultSerializer.serialize(DefaultSerializer.java:43)
+	at org.springframework.core.serializer.Serializer.serializeToByteArray(Serializer.java:56)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:60)
+	at org.springframework.core.serializer.support.SerializingConverter.convert(SerializingConverter.java:33)
+	at org.springframework.data.redis.serializer.JdkSerializationRedisSerializer.serialize(JdkSerializationRedisSerializer.java:95)
+	at org.springframework.data.redis.serializer.DefaultRedisElementWriter.write(DefaultRedisElementWriter.java:42)
+	at org.springframework.data.redis.serializer.RedisSerializationContext$SerializationPair.write(RedisSerializationContext.java:292)
+	at org.springframework.data.redis.cache.RedisCache.serializeCacheValue(RedisCache.java:343)
+	at org.springframework.data.redis.cache.RedisCache.put(RedisCache.java:204)
+	at org.springframework.cache.interceptor.AbstractCacheInvoker.doPut(AbstractCacheInvoker.java:164)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.performCachePut(CacheAspectSupport.java:1051)
+	at org.springframework.cache.interceptor.CacheAspectSupport$CachePutRequest.apply(CacheAspectSupport.java:1036)
+	at org.springframework.cache.interceptor.CacheAspectSupport.evaluate(CacheAspectSupport.java:580)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:447)
+	at org.springframework.cache.interceptor.CacheAspectSupport.execute(CacheAspectSupport.java:409)
+	at org.springframework.cache.interceptor.CacheInterceptor.invoke(CacheInterceptor.java:65)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:727)
+	at com.jsaon.jsonmapper.service.UserServiceImpl$$SpringCGLIB$$0.getById(<generated>)
+	at com.jsaon.jsonmapper.controller.UserController.getUserById(UserController.java:54)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+2024-12-28 09:33:04 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2024-12-28 09:33:04 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-28 09:33:04 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:33:04 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-28 09:33:04 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:33:05 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 18948 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-28 09:33:05 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-28 09:33:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-28 09:33:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-28 09:33:05 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2024-12-28 09:33:05 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-28 09:33:05 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:33:05 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-28 09:33:05 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-28 09:33:06 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-28 09:33:06 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 786 ms
+2024-12-28 09:33:06 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-28 09:33:06 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:33:06 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 09:33:06 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 1.311 seconds (process running for 672.247)
+2024-12-28 09:33:06 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   GenericCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.GenericCacheConfiguration automatic cache type (CacheCondition)
+
+   NoOpCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.NoOpCacheConfiguration automatic cache type (CacheCondition)
+
+   SimpleCacheConfiguration matched:
+      - Cache org.springframework.boot.autoconfigure.cache.SimpleCacheConfiguration automatic cache type (CacheCondition)
+
+
+Negative matches:
+-----------------
+
+   CacheAutoConfiguration:
+      Did not match:
+         - @ConditionalOnBean (types: org.springframework.cache.interceptor.CacheAspectSupport; SearchStrategy: all) did not find any beans of type org.springframework.cache.interceptor.CacheAspectSupport (OnBeanCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.springframework.cache.CacheManager' (OnClassCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2024-12-28 09:33:38 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-28 09:33:38 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-28 09:33:38 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:33:38 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-28 09:33:38 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:33:38 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 18948 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-28 09:33:38 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-28 09:33:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-28 09:33:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-28 09:33:39 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2024-12-28 09:33:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-28 09:33:39 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:33:39 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-28 09:33:39 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-28 09:33:39 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-28 09:33:39 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 653 ms
+2024-12-28 09:33:39 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-28 09:33:39 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:33:39 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 09:33:39 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 1.03 seconds (process running for 705.732)
+2024-12-28 09:33:39 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-28 09:34:09 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-28 09:34:09 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-28 09:34:09 INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:34:10 INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2024-12-28 09:34:10 INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:34:10 INFO  c.j.jsonmapper.JsonmapperApplication - Starting JsonmapperApplication using Java 17.0.11 with PID 18948 (D:\Java8\jsonmapper\target\classes started by Guru in D:\Java8\jsonmapper)
+2024-12-28 09:34:10 INFO  c.j.jsonmapper.JsonmapperApplication - No active profile set, falling back to 1 default profile: "default"
+2024-12-28 09:34:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2024-12-28 09:34:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-12-28 09:34:10 INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+2024-12-28 09:34:10 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2024-12-28 09:34:10 INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:34:10 INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-12-28 09:34:10 INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-28 09:34:10 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-12-28 09:34:10 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 597 ms
+2024-12-28 09:34:11 INFO  o.s.b.d.a.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2024-12-28 09:34:11 INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-28 09:34:11 INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2024-12-28 09:34:11 INFO  c.j.jsonmapper.JsonmapperApplication - Started JsonmapperApplication in 0.914 seconds (process running for 736.952)
+2024-12-28 09:34:11 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener - Condition evaluation unchanged
+2024-12-28 09:34:28 INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-28 09:34:28 INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-12-28 09:34:28 INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-12-28 09:34:28 INFO  c.j.j.controller.UserController - Received request to fetch all users
+2024-12-28 09:34:28 INFO  c.j.j.service.UserServiceImpl - Fetching all users
+2024-12-28 09:34:28 INFO  c.j.j.controller.UserController - Returning all users: []
+2024-12-28 09:34:34 INFO  c.j.j.controller.UserController - Received request to get user by ID: 2
+2024-12-28 09:34:34 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 2
+2024-12-28 09:34:34 WARN  c.j.j.service.UserServiceImpl - User not found with ID: 2
+2024-12-28 09:34:34 INFO  c.j.j.controller.UserController - Returning response for ID 2: <404 NOT_FOUND Not Found,[]>
+2024-12-28 09:34:40 INFO  c.j.j.controller.UserController - Received request to create users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:34:40 INFO  c.j.j.service.UserServiceImpl - Adding users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:34:40 INFO  c.j.j.service.UserServiceImpl - Current users list: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:34:40 INFO  c.j.j.controller.UserController - Successfully created users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 09:34:46 INFO  c.j.j.controller.UserController - Received request to get user by ID: 2
+2024-12-28 09:34:46 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 2
+2024-12-28 09:34:46 INFO  c.j.j.service.UserServiceImpl - User found: User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618)))
+2024-12-28 09:34:46 INFO  c.j.j.controller.UserController - Returning response for ID 2: <200 OK OK,User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))),[]>
+2024-12-28 09:34:57 INFO  c.j.j.controller.UserController - Received request to get user by ID: 3
+2024-12-28 09:34:57 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 3
+2024-12-28 09:34:57 INFO  c.j.j.service.UserServiceImpl - User found: User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))
+2024-12-28 09:34:57 INFO  c.j.j.controller.UserController - Returning response for ID 3: <200 OK OK,User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653))),[]>
+2024-12-28 12:52:58 INFO  c.j.j.controller.UserController - Received request to fetch all users
+2024-12-28 12:52:58 INFO  c.j.j.service.UserServiceImpl - Fetching all users
+2024-12-28 12:52:58 INFO  c.j.j.controller.UserController - Returning all users: [User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))), User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))]
+2024-12-28 12:53:09 INFO  c.j.j.controller.UserController - Received request to get user by ID: 2
+2024-12-28 12:53:09 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 2
+2024-12-28 12:53:09 INFO  c.j.j.service.UserServiceImpl - User found: User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618)))
+2024-12-28 12:53:09 INFO  c.j.j.controller.UserController - Returning response for ID 2: <200 OK OK,User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618))),[]>
+2024-12-28 12:53:23 INFO  c.j.j.controller.UserController - Received request to get user coordinates by ID: 2
+2024-12-28 12:53:23 INFO  c.j.j.service.UserServiceImpl - Searching for userGeo with ID: 2
+2024-12-28 12:53:23 INFO  c.j.j.service.UserServiceImpl - User found: User(id=2, name=Ervin Howell, username=Antonette, email=Shanna@melissa.tv, phone=1-770-736-8031 x56442, website=hildegard.org, company=Company(name=Romaguera-Crona, catchPhrase=Multi-layered client-server neural-net, bs=harness real-time e-markets), address=Address(street=Victor Plains, suite=Suite 879, city=Wisokyburgh, zipcode=90566-7771, geo=Geo(lat=-43.9509, lng=-34.4618)))
+2024-12-28 12:53:23 INFO  c.j.j.service.UserServiceImpl - UserGeo found: Geo(lat=-43.9509, lng=-34.4618)
+2024-12-28 12:53:23 INFO  c.j.j.controller.UserController - Returning response for ID 2: <200 OK OK,Geo(lat=-43.9509, lng=-34.4618),[]>
+2024-12-28 12:54:27 INFO  c.j.j.controller.UserController - Received request to get user by ID: 3
+2024-12-28 12:54:27 INFO  c.j.j.service.UserServiceImpl - Searching for user with ID: 3
+2024-12-28 12:54:27 INFO  c.j.j.service.UserServiceImpl - User found: User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653)))
+2024-12-28 12:54:27 INFO  c.j.j.controller.UserController - Returning response for ID 3: <200 OK OK,User(id=3, name=Clementine Bauch, username=Samantha, email=Nathan@yesenia.net, phone=010-692-6593 x09125, website=anastasia.net, company=Company(name=Deckow-Crist, catchPhrase=Proactive didactic contingency, bs=synergize scalable supply-chains), address=Address(street=Douglas Extension, suite=Suite 847, city=McKenziehaven, zipcode=59590-4157, geo=Geo(lat=-68.6102, lng=-47.0653))),[]>
